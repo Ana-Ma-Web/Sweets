@@ -109,7 +109,7 @@ var printQuantity = function printQuantity() {
 };
 
 function generateCartProduct(id, quantity, img, title, price) {
-  return "\n  <li class=\"basket-item\" data-id=\"".concat(id, "\">\n    <div class=\"basket-item__img\">\n      <img src=\"").concat(img, "\" alt=\"\">\n    </div>\n    <a href=\"/product.html\" class=\"basket-item__title\">").concat(title, "</a>\n    <div class=\"basket-item__number\">\n      <button class=\"btn-reset basket-item__btn basket-item__btn--subtract\">-</button>\n      <input class=\"basket-item__value input-reset\" type=\"text\" name=\"name\" value=\"").concat(quantity, " \">\n      <button class=\"btn-reset basket-item__btn basket-item__btn--add\">+</button>\n    </div>\n    <div class=\"basket-item__price\"><span class=\"item-price\">").concat(normalPrice(price * quantity), "</span> \u20BD</div>\n    <button class=\"btn-reset basket-item__btn basket-item__btn--del\"></button>\n  </li>\n  ");
+  return "\n  <li class=\"basket-item\" data-id=\"".concat(id, "\">\n    <div class=\"basket-item__img\">\n      <img src=\"").concat(img, "\" alt=\"\">\n    </div>\n    <a href=\"product.html\" class=\"basket-item__title\">").concat(title, "</a>\n    <div class=\"basket-item__number\">\n      <button class=\"btn-reset basket-item__btn basket-item__btn--subtract\">-</button>\n      <input class=\"basket-item__value input-reset\" type=\"text\" name=\"name\" value=\"").concat(quantity, " \">\n      <button class=\"btn-reset basket-item__btn basket-item__btn--add\">+</button>\n    </div>\n    <div class=\"basket-item__price\"><span class=\"item-price\">").concat(normalPrice(price * quantity), "</span> \u20BD</div>\n    <button class=\"btn-reset basket-item__btn basket-item__btn--del\"></button>\n  </li>\n  ");
 }
 
 ;

@@ -84,7 +84,7 @@ html {
   background-color: var(--bg-color);
   background-image: var(--bg-img-1), var(--bg-img-2), var(--bg-img-2);
   background-repeat: no-repeat;
-  background-position: left calc(50% - 50vw) top -1650px, right calc(90% - 40vw) top 700px, left calc(90% - 30vw) top 1700px;
+  background-position: left calc(50% - 50vw) top -1650px, right calc(90% - 40vw) top 900px, left calc(90% - 30vw) top 2200px;
 }
 
 img {

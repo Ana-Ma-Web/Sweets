@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>Sweets</title>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/main.js"></script>
+</head>
+
+<body class="page__body">
+  <div class="site-container">
+    <header class="header">
+  <div class="container header__container">
+    <a href="/" class="logo header__logo">
+      <img src="img/logo.svg" alt="Sweets logo">
+    </a>
+    <div class="header__menu">
+      <button id="theme-light" aria-label="Светлая тема" class="theme-switcher theme-switcher--sun btn-reset"></button>
+      <button id="theme-dark" aria-label="Темная тема" class="theme-switcher theme-switcher--moon btn-reset"></button>
+      <a href="/basket.html" aria-label="Корзина" class="header__link cart">
+        <span class="cart__quantity cart__quantity--empty">0</span>
+        <path fill="none" d="M0 0h24v24H0z"/>
+        <svg class="cart__svg" xmlns="http://www.w3.org/2000/svg" width="55" height="70" viewBox="0 0 24 24">
+          <path d="M4 6.414.757 3.172l1.415-1.415L5.414 5h15.242a1 1 0 0 1 .958 1.287l-2.4 8a1 1 0 0 1-.958.713H6v2h11v2H5a1 1 0 0 1-1-1V6.414zM6 7v6h11.512l1.8-6H6zm-.5 16a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm12 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/></svg>
+      </a>
+    </div>
+  </div>
+</header>
+
+    <main class="main">
+      <section class="ordering">
+  <div class="ordering__container container">
+    <h1 class="title ordering__title">Оформление заказа</h1>
+    <div class="ordering__wrapper">
+      <form action="" method="POST" class="form ordering__form" id="order-form">
+        <div class="form__contacts">
+          <div class="form__title">1. Контактные данные</div>
+          <div class="form__row">
+            <label type="text" class="form-field">
+              <div class="form-field__caption">Имя</div>
+              <input type="text" class="form-field__input" name="name" required>
+            </label>
+            <label type="text" class="form-field">
+              <div class="form-field__caption">Телефон</div>
+              <input type="tel" class="form-field__input" name="phone" required>
+            </label>
+          </div>
+        </div>
+        <div class="form__address">
+          <div class="form__title">2. Адрес</div>
+          <div class="form__row">
+            <label type="text" class="form-field">
+              <div class="form-field__caption">Город</div>
+              <input type="text" class="form-field__input" name="city" required>
+            </label>
+            <label type="text" class="form-field">
+              <div class="form-field__caption">Улица, дом, квартира</div>
+              <input type="text" class="form-field__input" name="address" required>
+            </label>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-reset form__btn ordering__btn" id="order-btn">Подтвердить заказ</button>
+      </form>
+      <div class="ordering__side side-block">
+        <div class="side-block__title">2 позиции в заказе</div>
+        <ul class="side-block__list ordering__list list-reset">
+        </ul>
+        <div class="side-block__title fullprice">Итого: 5 998 ₽</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </main>
+    <footer class="footer">
+  <div class="container footer__container">
+    <div class="footer__column footer__info">
+      <div class="footer__title">О нас</div>
+      <div class="footer__text">Каждый месяц мы отправляем удивительные боксы с различными сладостями с разным составом</div>
+    </div>
+    <div class="footer__column">
+      <div class="footer__title">Боксы</div>
+      <ul class="list-reset">
+        <li>
+          <a href="#" class="footer__link">Что в боксе?</a>
+        </li>
+        <li>
+          <a href="#" class="footer__link">Доставка</a>
+        </li>
+        <li>
+          <a href="#" class="footer__link">О наших сладостях</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer__column">
+      <div class="footer__title">Информация</div>
+      <ul class="list-reset">
+        <li>
+          <a href="#" class="footer__link">Вопросы и ответы</a>
+        </li>
+        <li>
+          <a href="#" class="footer__link">Доставка</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer__column">
+      <div class="footer__title">Контакты</div>
+      <ul class="list-reset">
+        <li>
+          <a href="tel:78000000000" class="footer__link">+7 (800-00) 0-00-00</a>
+        </li>
+        <li>
+          <a href="#" class="footer__link">Группа ВК</a>
+        </li>
+        <li>
+          <a href="#" class="footer__link">Канал YouTube</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <a href="#" class="logo footer__logo">
+    <img src="img/logo.svg" alt="Sweets logo">
+  </a>
+</footer>
+
+  </div>
+</body>
+
+</html>

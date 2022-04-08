@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>Sweets</title>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/main.js"></script>
+</head>
+
+<body class="page__body">
+  <div class="site-container">
+    <header class="header">
+  <div class="container header__container">
+    <a href="/" class="logo header__logo">
+      <img src="img/logo.svg" alt="Sweets logo">
+    </a>
+    <div class="header__menu">
+      <button id="theme-light" aria-label="Светлая тема" class="theme-switcher theme-switcher--sun btn-reset"></button>
+      <button id="theme-dark" aria-label="Темная тема" class="theme-switcher theme-switcher--moon btn-reset"></button>
+      <a href="/basket.html" aria-label="Корзина" class="header__link cart">
+        <span class="cart__quantity cart__quantity--empty">0</span>
+        <path fill="none" d="M0 0h24v24H0z"/>
+        <svg class="cart__svg" xmlns="http://www.w3.org/2000/svg" width="55" height="70" viewBox="0 0 24 24">
+          <path d="M4 6.414.757 3.172l1.415-1.415L5.414 5h15.242a1 1 0 0 1 .958 1.287l-2.4 8a1 1 0 0 1-.958.713H6v2h11v2H5a1 1 0 0 1-1-1V6.414zM6 7v6h11.512l1.8-6H6zm-.5 16a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm12 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/></svg>
+      </a>
+    </div>
+  </div>
+</header>
+
+    <main class="main">
+      <section class="hero">
+  <div class="container hero__container">
+    <div class="hero__content">
+      <h1 class="title hero__title">Уникальные сладости!</h1>
+      <div class="text hero__text">
+        Уникальные сладости фейра. Взлет волшебной сласти номер один в России.
+      </div>
+      <a href="#catalog-section" class="btn btn-reset hero__btn">Выбрать сладости</a>
+    </div>
+    <div class="hero__img">
+      <picture>
+        <source srcset="../img/hero.webp" type="image/webp">
+        <img src="../img/hero.jpg" alt="Sweets">
+      </picture>
+    </div>
+  </div>
+</section>
+
+      <section class="catalog" id="catalog-section">
+  <div class="catalog__container container">
+    <h2 class="title">Каталог</h2>
+    <div class="product-cards">
+      <div class="product-card" data-id="0">
+        <div class="product-card__notification notification">
+          Добавлено
+        </div>
+        <a href="/product.html" class="product-card__img">
+          <img src="../img/product-1.jpg" loading="lazy" width="230" height="230" alt="Marshmallow">
+        </a>
+        <a href="/product.html" class="product-card__title">Нежные облака</a>
+        <div class="product-card__text">200г</div>
+        <div class="product-card__price"><span>999</span>₽</div>
+        <button class="btn btn-reset product-card__btn">Купить</button>
+      </div>
+      <div class="product-card" data-id="1">
+        <div class="product-card__notification notification">
+          Добавлено
+        </div>
+        <a href="/product.html" class="product-card__img">
+          <img src="../img/product-2.jpg" loading="lazy" width="230" height="230" alt="Marshmallow">
+        </a>
+        <a href="/product.html" class="product-card__title">Язычки</a>
+        <div class="product-card__text">400г</div>
+        <div class="product-card__price"><span>1999</span>₽</div>
+        <button class="btn btn-reset product-card__btn">Купить</button>
+      </div>
+      <div class="product-card" data-id="2">
+        <div class="product-card__notification notification">
+          Добавлено
+        </div>
+        <a href="/product.html" class="product-card__img">
+          <img src="../img/product-3.jpg" loading="lazy" width="230" height="230" alt="Marshmallow">
+        </a>
+        <a href="/product.html" class="product-card__title">Сахарные тянучки</a>
+        <div class="product-card__text">400г</div>
+        <div class="product-card__price"><span>2999</span>₽</div>
+        <button class="btn btn-reset product-card__btn">Купить</button>
+      </div>
+      <div class="product-card" data-id="3">
+        <div class="product-card__notification notification">
+          Добавлено
+        </div>
+        <a href="/product.html" class="product-card__img">
+          <img src="../img/product-4.jpg" loading="lazy" width="230" height="230" alt="Marshmallow">
+        </a>
+        <a href="/product.html" class="product-card__title">Орешки в глазури</a>
+        <div class="product-card__text">500г</div>
+        <div class="product-card__price"><span>4999</span>₽</div>
+        <button class="btn btn-reset product-card__btn">Купить</button>
+      </div>
+      <div class="product-card" data-id="4">
+        <div class="product-card__notification notification">
+          Добавлено
+        </div>
+        <a href="/product.html" class="product-card__img">
+          <img src="../img/product-5.jpg" loading="lazy" width="230" height="230" alt="Marshmallow">
+        </a>
+        <a href="/product.html" class="product-card__title">Карамельные грибочки</a>
+        <div class="product-card__text">600г</div>
+        <div class="product-card__price"><span>1999</span>₽</div>
+        <button class="btn btn-reset product-card__btn">Купить</button>
+      </div>
+      <div class="product-card" data-id="5">
+        <div class="product-card__notification notification">
+          Добавлено
+        </div>
+        <a href="/product.html" class="product-card__img">
+          <img src="../img/product-6.jpg" loading="lazy" width="230" height="230" alt="Marshmallow">
+        </a>
+        <a href="/product.html" class="product-card__title">Кокосовые ёжики</a>
+        <div class="product-card__text">200г</div>
+        <div class="product-card__price"><span>999</span>₽</div>
+        <button class="btn btn-reset product-card__btn">Купить</button>
+      </div>
+      <div class="product-card" data-id="6">
+        <div class="product-card__notification notification">
+          Добавлено
+        </div>
+        <a href="/product.html" class="product-card__img">
+          <img src="../img/product-7.jpg" loading="lazy" width="230" height="230" alt="Marshmallow">
+        </a>
+        <a href="/product.html" class="product-card__title">Праздничный шоколад</a>
+        <div class="product-card__text">300г</div>
+        <div class="product-card__price"><span>1799</span>₽</div>
+        <button class="btn btn-reset product-card__btn">Купить</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="feedback">
+  <div class="feedback__container container">
+    <div class="feedback__header">
+      <h2 class="title feedback__title">Отзывы</h2>
+      <a href="#" class="feedback__link-all">Все отзывы</a>
+    </div>
+    <div class="feedback__list">
+      <div class="feedback-item">
+        <figure class="feedback-item__wrapper">
+          <div class="feedback-item__img">
+            <img src="../img/avatar-1.jpg" alt="avatar">
+          </div>
+          <blockquote class="feedback-item__text">
+            Вот почему Мэйнхеттен такой великолепный и удивительный. Ты делаешь для кого-то что-то хорошее и не знаешь, когда они сделают что-то хорошее для тебя.
+          </blockquote>
+          <figcaption class="feedback-item__figure">Рарити</figcaption>
+        </figure>
+      </div>
+      <div class="feedback-item">
+        <figure class="feedback-item__wrapper">
+        <div class="feedback-item__img">
+          <img src="../img/avatar-2.jpg" alt="avatar">
+        </div>
+        <blockquote class="feedback-item__text">
+          Слишком взрослая для конфет? А-а! Нет!
+        </blockquote>
+        <figcaption class="feedback-item__figure">Пинки Пай</figcaption>
+      </figure>
+    </div>
+    <div class="feedback-item">
+      <figure class="feedback-item__wrapper">
+      <div class="feedback-item__img">
+          <img src="../img/avatar-3.jpg" alt="avatar">
+        </div>
+        <blockquote class="feedback-item__text">
+          Порой мне кажется, что я могу сделать так мало, что это не имеет никого значения
+        </blockquote>
+        <figcaption class="feedback-item__figure">Флаттершай</figcaption>
+      </figure>
+    </div>
+    <div class="feedback-item">
+      <figure class="feedback-item__wrapper">
+      <div class="feedback-item__img">
+          <img src="../img/avatar-4.jpg" alt="avatar">
+        </div>
+        <blockquote class="feedback-item__text">
+          Я поняла, как важно всегда прочно стоять копытами на земле и во всём поддерживать друзей.
+        </blockquote>
+        <figcaption class="feedback-item__figure">Радуга Дэш</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+      <section class="reviews">
+  <div class="reviews__container container">
+    <h2 class="reviews__title title">Обзоры</h2>
+    <div class="reviews__list">
+      <div class="review">
+        <div class="video">
+          <a class="video__link" href="https://youtu.be/m82-UP9y9zs">
+            <picture>
+              <source srcset="https://i.ytimg.com/vi_webp/m82-UP9y9zs/maxresdefault.webp" type="image/webp">
+              <img class="video__media" src="https://i.ytimg.com/vi/m82-UP9y9zs/maxresdefault.jpg" alt="1. Пилот, разборы, ответы и лайвы">
+            </picture>
+          </a>
+          <button class="video__button" aria-label="Запустить видео">
+            <svg width="68" height="48" viewBox="0 0 68 48"><path class="video__button-shape" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"></path><path class="video__button-icon" d="M 45,24 27,14 27,34"></path></svg>
+          </button>
+        </div>
+        <div class="review__text">Лучшие сладости в подарок ребенку</div>
+      </div>
+      <div class="review">
+        <div class="video">
+          <a class="video__link" href="https://youtu.be/m82-UP9y9zs">
+            <picture>
+              <source srcset="https://i.ytimg.com/vi_webp/m82-UP9y9zs/maxresdefault.webp" type="image/webp">
+              <img class="video__media" src="https://i.ytimg.com/vi/m82-UP9y9zs/maxresdefault.jpg" alt="1. Пилот, разборы, ответы и лайвы">
+            </picture>
+          </a>
+          <button class="video__button" aria-label="Запустить видео">
+            <svg width="68" height="48" viewBox="0 0 68 48"><path class="video__button-shape" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"></path><path class="video__button-icon" d="M 45,24 27,14 27,34"></path></svg>
+          </button>
+        </div>
+        <div class="review__text">Конфеты для любимых</div>
+      </div>
+      <div class="review">
+        <div class="video">
+          <a class="video__link" href="https://youtu.be/m82-UP9y9zs">
+            <picture>
+              <source srcset="https://i.ytimg.com/vi_webp/m82-UP9y9zs/maxresdefault.webp" type="image/webp">
+              <img class="video__media" src="https://i.ytimg.com/vi/m82-UP9y9zs/maxresdefault.jpg" alt="1. Пилот, разборы, ответы и лайвы">
+            </picture>
+          </a>
+          <button class="video__button" aria-label="Запустить видео">
+            <svg width="68" height="48" viewBox="0 0 68 48"><path class="video__button-shape" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"></path><path class="video__button-icon" d="M 45,24 27,14 27,34"></path></svg>
+          </button>
+        </div>
+        <div class="review__text">Уникальные сладости из лучших ингридиентов</div>
+      </div>
+      <div class="review">
+        <div class="video">
+          <a class="video__link" href="https://youtu.be/m82-UP9y9zs">
+            <picture>
+              <source srcset="https://i.ytimg.com/vi_webp/m82-UP9y9zs/maxresdefault.webp" type="image/webp">
+              <img class="video__media" src="https://i.ytimg.com/vi/m82-UP9y9zs/maxresdefault.jpg" alt="1. Пилот, разборы, ответы и лайвы">
+            </picture>
+          </a>
+          <button class="video__button" aria-label="Запустить видео">
+            <svg width="68" height="48" viewBox="0 0 68 48"><path class="video__button-shape" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"></path><path class="video__button-icon" d="M 45,24 27,14 27,34"></path></svg>
+          </button>
+        </div>
+        <div class="review__text">Лучшие сладости в подарок ребенку</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </main>
+    <footer class="footer">
+  <div class="container footer__container">
+    <div class="footer__column footer__info">
+      <div class="footer__title">О нас</div>
+      <div class="footer__text">Каждый месяц мы отправляем удивительные боксы с различными сладостями с разным составом</div>
+    </div>
+    <div class="footer__column">
+      <div class="footer__title">Боксы</div>
+      <ul class="list-reset">
+        <li>
+          <a href="#" class="footer__link">Что в боксе?</a>
+        </li>
+        <li>
+          <a href="#" class="footer__link">Доставка</a>
+        </li>
+        <li>
+          <a href="#" class="footer__link">О наших сладостях</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer__column">
+      <div class="footer__title">Информация</div>
+      <ul class="list-reset">
+        <li>
+          <a href="#" class="footer__link">Вопросы и ответы</a>
+        </li>
+        <li>
+          <a href="#" class="footer__link">Доставка</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer__column">
+      <div class="footer__title">Контакты</div>
+      <ul class="list-reset">
+        <li>
+          <a href="tel:78000000000" class="footer__link">+7 (800-00) 0-00-00</a>
+        </li>
+        <li>
+          <a href="#" class="footer__link">Группа ВК</a>
+        </li>
+        <li>
+          <a href="#" class="footer__link">Канал YouTube</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <a href="#" class="logo footer__logo">
+    <img src="img/logo.svg" alt="Sweets logo">
+  </a>
+</footer>
+
+  </div>
+</body>
+
+</html>

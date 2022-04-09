@@ -359,7 +359,7 @@ function printItemPrice() {
 }
 
 function printBasketEmpty() {
-  return "\n  <div class=\"basket-empty\">\n  <h2 class=\"basket-empty__title\">\u041A\u043E\u0440\u0437\u0438\u043D\u0430 \u043F\u0443\u0441\u0442\u0430</h2>\n  <div class=\"basket-empty__message\">\u0414\u043B\u044F \u0437\u0430\u043A\u0430\u0437\u0430 \u0434\u043E\u0431\u0430\u0432\u044C\u0442\u0435 \u0442\u043E\u0432\u0430\u0440\u044B \u0432 \u043A\u043E\u0440\u0437\u0438\u043D\u0443</div>\n  <a href=\"/#catalog-section\" class=\"btn btn-reset basket-empty__btn\">\u041F\u0435\u0440\u0435\u0439\u0442\u0438 \u043A \u0442\u043E\u0432\u0430\u0440\u0430\u043C</a>\n  </div>\n  ";
+  return "\n  <div class=\"basket-empty\">\n  <h2 class=\"basket-empty__title\">\u041A\u043E\u0440\u0437\u0438\u043D\u0430 \u043F\u0443\u0441\u0442\u0430</h2>\n  <div class=\"basket-empty__message\">\u0414\u043B\u044F \u0437\u0430\u043A\u0430\u0437\u0430 \u0434\u043E\u0431\u0430\u0432\u044C\u0442\u0435 \u0442\u043E\u0432\u0430\u0440\u044B \u0432 \u043A\u043E\u0440\u0437\u0438\u043D\u0443</div>\n  <a href=\"#catalog-section\" class=\"btn btn-reset basket-empty__btn\">\u041F\u0435\u0440\u0435\u0439\u0442\u0438 \u043A \u0442\u043E\u0432\u0430\u0440\u0430\u043C</a>\n  </div>\n  ";
 }
 
 function readBasket() {
